@@ -9,10 +9,10 @@ async function bootstrap() {
 
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
-    .setTitle('NestJS Authentication Swagger')
-    .setDescription('NestJS Authentication description')
+    .setTitle('NestJS PubNub Swagger')
+    .setDescription('NestJS PubNub description')
     .setVersion('1.0')
-    .addTag('NestJS Authentication')
+    .addTag('NestJS PubNub')
     .build();
   const document = SwaggerModule.createDocument(app, config);
 

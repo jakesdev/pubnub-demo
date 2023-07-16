@@ -42,6 +42,7 @@
     "nodemon": "^2.0.20",
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
+    "pubnub": "^7.2.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
